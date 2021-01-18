@@ -1,0 +1,88 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"15 C:\Users\adrian.cristian.crisan\Downloads\PROGRAM/main.c
+[v _configPIC configPIC `(v  1 e 1 0 ]
+"26
+[v _print_char print_char `(v  1 e 1 0 ]
+"45
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f45k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"147
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"198
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"6280
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"7142
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"8060
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8504
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8726
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"45 C:\Users\adrian.cristian.crisan\Downloads\PROGRAM/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"51
+[v main@i i `i  1 a 2 14 ]
+"50
+[v main@txt txt `[9]uc  1 a 9 5 ]
+"49
+[v main@F5826 F5826 `[9]uc  1 s 9 F5826 ]
+"69
+} 0
+"26
+[v _print_char print_char `(v  1 e 1 0 ]
+{
+[v print_char@c c `uc  1 a 1 wreg ]
+"32
+[v print_char@lower_letters lower_letters `[26]i  1 a 52 52 ]
+"29
+[v print_char@capital_letters capital_letters `[26]i  1 a 52 0 ]
+"28
+[v print_char@numbers numbers `[10]i  1 a 20 104 ]
+"26
+[v print_char@c c `uc  1 a 1 wreg ]
+[v print_char@seg seg `i  1 p 2 0 ]
+"27
+[v print_char@F5817 F5817 `[10]i  1 s 20 F5817 ]
+"28
+[v print_char@F5819 F5819 `[26]i  1 s 52 F5819 ]
+"31
+[v print_char@F5821 F5821 `[26]i  1 s 52 F5821 ]
+"27
+[v print_char@c c `uc  1 a 1 124 ]
+"41
+} 0
+"15
+[v _configPIC configPIC `(v  1 e 1 0 ]
+{
+"24
+} 0

@@ -1,0 +1,59 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"18 C:\Users\adric\Google Drive\CI\Lab\L4\Sobre\letras/main.c
+[v _configPIC configPIC `(v  1 e 1 0 ]
+"33
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"98 C:\Program Files\Microchip\xc8\v2.30\pic\include\proc\pic18f45k22.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"148
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"199
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"6566
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"6836
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"7143
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"8283
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8505
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8727
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"33 C:\Users\adric\Google Drive\CI\Lab\L4\Sobre\letras/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"49
+} 0
+"18
+[v _configPIC configPIC `(v  1 e 1 0 ]
+{
+"31
+} 0

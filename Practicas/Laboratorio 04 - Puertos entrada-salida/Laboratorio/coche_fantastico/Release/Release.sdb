@@ -1,0 +1,273 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"19 C:\Users\adric\Google Drive\CI\Lab\L4\Sobre\coche_fantastico/main.c
+[v _configPIC configPIC `(v  1 e 1 0 ]
+"34
+[v _main main `(v  1 e 1 0 ]
+"42 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"32 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 3 0 ]
+"12 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"13 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 3 0 ]
+"254 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 3 0 ]
+"277
+[v _ldexp ldexp `(d  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"35 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"98 C:\Program Files\Microchip\xc8\v2.30\pic\include\proc\pic18f45k22.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"148
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"199
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"6566
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"6836
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"7143
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"8283
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8505
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8727
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"3 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"34 C:\Users\adric\Google Drive\CI\Lab\L4\Sobre\coche_fantastico/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+[v main@i_55 i `i  1 a 2 6 ]
+"39
+[v main@i i `i  1 a 2 4 ]
+"38
+[v main@j j `i  1 a 2 2 ]
+"54
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 3 0 ]
+{
+"8
+[v pow@yi yi `ul  1 a 4 78 ]
+"7
+[v pow@sign sign `uc  1 a 1 77 ]
+"5
+[v pow@x x `d  1 p 3 65 ]
+[v pow@y y `d  1 p 3 68 ]
+"31
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 3 0 ]
+{
+"7
+[v log@exponent exponent `i  1 a 2 52 ]
+"5
+[v log@x x `d  1 p 3 49 ]
+"9
+[v log@coeff coeff `C[9]d  1 s 27 coeff ]
+"36
+} 0
+"12 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 3 0 ]
+{
+"14
+[v exp@exponent exponent `i  1 a 2 62 ]
+"15
+[v exp@sign sign `uc  1 a 1 64 ]
+"12
+[v exp@x x `d  1 p 3 56 ]
+"17
+[v exp@coeff coeff `C[10]d  1 s 30 coeff ]
+"57
+} 0
+"277 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\frexp.c
+[v _ldexp ldexp `(d  1 e 3 0 ]
+{
+[v ldexp@value value `d  1 p 3 49 ]
+[v ldexp@newexp newexp `i  1 p 2 52 ]
+"307
+} 0
+"13 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 3 0 ]
+{
+"15
+[v floor@i i `d  1 a 3 42 ]
+"16
+[v floor@expon expon `i  1 a 2 45 ]
+"13
+[v floor@x x `d  1 p 3 39 ]
+"30
+} 0
+"254 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 3 0 ]
+{
+[v frexp@value value `d  1 p 3 0 ]
+[v frexp@eptr eptr `*.30i  1 p 1 3 ]
+"274
+} 0
+"44 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 22 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 26 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 21 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 12 ]
+"73
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 0 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 3 ]
+"13
+} 0
+"42 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+{
+"44
+[v ___altoft@sign sign `uc  1 a 1 36 ]
+[v ___altoft@exp exp `uc  1 a 1 35 ]
+"42
+[v ___altoft@c c `l  1 p 4 27 ]
+"57
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 3 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 3 46 ]
+"4
+[v eval_poly@x x `d  1 p 3 39 ]
+[v eval_poly@d d `*.31Cd  1 p 1 42 ]
+[v eval_poly@n n `i  1 p 2 43 ]
+"12
+} 0
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 22 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 26 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 25 ]
+[v ___ftmul@exp exp `uc  1 a 1 21 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 12 ]
+[v ___ftmul@f2 f2 `f  1 p 3 15 ]
+"157
+} 0
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f1 f1 `f  1 p 3 39 ]
+[v ___ftsub@f2 f2 `f  1 p 3 42 ]
+"26
+} 0
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 38 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 37 ]
+[v ___ftadd@sign sign `uc  1 a 1 36 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 27 ]
+[v ___ftadd@f2 f2 `f  1 p 3 30 ]
+"148
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 0 ]
+"20
+} 0
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 18 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 22 ]
+[v ___ftdiv@exp exp `uc  1 a 1 21 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 17 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 8 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 11 ]
+"86
+} 0
+"32 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 11 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"35 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 16 ]
+"35
+[v ___lltoft@c c `ul  1 p 4 8 ]
+"46
+} 0
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"19 C:\Users\adric\Google Drive\CI\Lab\L4\Sobre\coche_fantastico/main.c
+[v _configPIC configPIC `(v  1 e 1 0 ]
+{
+"32
+} 0

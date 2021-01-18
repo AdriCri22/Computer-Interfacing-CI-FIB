@@ -1,0 +1,580 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"41 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/GLCD.c
+[v _GLCDBusyWait GLCDBusyWait `(v  1 e 1 0 ]
+[v i2_GLCDBusyWait GLCDBusyWait `(v  1 e 1 0 ]
+"72
+[v _sendGLCDCommand sendGLCDCommand `(v  1 e 1 0 ]
+[v i2_sendGLCDCommand sendGLCDCommand `(v  1 e 1 0 ]
+"98
+[v _setStartLine setStartLine `(v  1 e 1 0 ]
+"105
+[v _setXAddress setXAddress `(v  1 e 1 0 ]
+[v i2_setXAddress setXAddress `(v  1 e 1 0 ]
+"112
+[v _setYAddress setYAddress `(v  1 e 1 0 ]
+[v i2_setYAddress setYAddress `(v  1 e 1 0 ]
+"133
+[v _GLCDinit GLCDinit `(v  1 e 1 0 ]
+"142
+[v _writeByte writeByte `(v  1 e 1 0 ]
+[v i2_writeByte writeByte `(v  1 e 1 0 ]
+"170
+[v _readByteReal readByteReal `(uc  1 e 1 0 ]
+"205
+[v _readByte readByte `(uc  1 e 1 0 ]
+"215
+[v _clearGLCD clearGLCD `(v  1 e 1 0 ]
+[v i2_clearGLCD clearGLCD `(v  1 e 1 0 ]
+"225
+[v _SetDot SetDot `(v  1 e 1 0 ]
+"243
+[v _putchGLCD putchGLCD `(v  1 e 1 0 ]
+"20 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/main.c
+[v _printDot printDot `(v  1 e 1 0 ]
+"25
+[v _printDot2 printDot2 `(v  1 e 1 0 ]
+"30
+[v _highRSI highRSI `II(v  1 e 1 0 ]
+"59
+[v _configPIC configPIC `(v  1 e 1 0 ]
+"91
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"18 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/main.c
+[v _an0 an0 `i  1 e 2 0 ]
+[v _t t `i  1 e 2 0 ]
+[v _prev prev `i  1 e 2 0 ]
+[v _count count `i  1 e 2 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f45k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"97
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"198
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"6565
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S378 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"6635
+[s S387 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S396 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 AN13 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S405 . 1 `uc 1 FLT0 1 0 :1:0 
+`uc 1 C12IN3M 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C12IN2M 1 0 :1:3 
+`uc 1 T5G 1 0 :1:4 
+`uc 1 T1G 1 0 :1:5 
+]
+[s S412 . 1 `uc 1 SRI 1 0 :1:0 
+`uc 1 C12IN3N 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C12IN2N 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CCP3 1 0 :1:5 
+]
+[s S419 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CTED1 1 0 :1:2 
+`uc 1 CTED2 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T3CKI 1 0 :1:5 
+]
+[s S425 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 P2A 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 P3A 1 0 :1:5 
+]
+[s S430 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S433 . 1 `S378 1 . 1 0 `S387 1 . 1 0 `S396 1 . 1 0 `S405 1 . 1 0 `S412 1 . 1 0 `S419 1 . 1 0 `S425 1 . 1 0 `S430 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES433  1 e 1 @3969 ]
+"7142
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S235 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"8092
+[s S244 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S253 . 1 `S235 1 . 1 0 `S244 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES253  1 e 1 @3986 ]
+"8282
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8726
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S176 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"13459
+[s S181 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S188 . 1 `S176 1 . 1 0 `S181 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES188  1 e 1 @4032 ]
+[s S204 . 1 `uc 1 NVCFG 1 0 :2:0 
+`uc 1 PVCFG 1 0 :2:2 
+`uc 1 . 1 0 :3:4 
+`uc 1 TRIGSEL 1 0 :1:7 
+]
+"13532
+[s S209 . 1 `uc 1 NVCFG0 1 0 :1:0 
+`uc 1 NVCFG1 1 0 :1:1 
+`uc 1 PVCFG0 1 0 :1:2 
+`uc 1 PVCFG1 1 0 :1:3 
+]
+[s S214 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S217 . 1 `S204 1 . 1 0 `S209 1 . 1 0 `S214 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES217  1 e 1 @4033 ]
+[s S79 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"13622
+[s S82 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S86 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S94 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S97 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S100 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S103 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S106 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S109 . 1 `S79 1 . 1 0 `S82 1 . 1 0 `S86 1 . 1 0 `S94 1 . 1 0 `S97 1 . 1 0 `S100 1 . 1 0 `S103 1 . 1 0 `S106 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES109  1 e 1 @4034 ]
+"13709
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"13729
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S276 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"16115
+[s S283 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S287 . 1 `S276 1 . 1 0 `S283 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES287  1 e 1 @4053 ]
+"16172
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"16192
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S30 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16924
+[s S39 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S48 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S52 . 1 `S30 1 . 1 0 `S39 1 . 1 0 `S48 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES52  1 e 1 @4082 ]
+"91 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"94
+} 0
+"59
+[v _configPIC configPIC `(v  1 e 1 0 ]
+{
+"89
+} 0
+"215 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/GLCD.c
+[v _clearGLCD clearGLCD `(v  1 e 1 0 ]
+{
+[v clearGLCD@ri ri `uc  1 a 1 wreg ]
+"217
+[v clearGLCD@j j `i  1 a 2 20 ]
+[v clearGLCD@i i `i  1 a 2 18 ]
+"215
+[v clearGLCD@ri ri `uc  1 a 1 wreg ]
+[v clearGLCD@re re `uc  1 p 1 11 ]
+[v clearGLCD@ci ci `uc  1 p 1 12 ]
+[v clearGLCD@ce ce `uc  1 p 1 13 ]
+"219
+[v clearGLCD@ri ri `uc  1 a 1 17 ]
+"222
+} 0
+"142
+[v _writeByte writeByte `(v  1 e 1 0 ]
+{
+[v writeByte@p p `uc  1 a 1 wreg ]
+"143
+[v writeByte@chip chip `uc  1 a 1 10 ]
+"142
+[v writeByte@p p `uc  1 a 1 wreg ]
+[v writeByte@y y `uc  1 p 1 5 ]
+[v writeByte@data data `uc  1 p 1 6 ]
+[v writeByte@p p `uc  1 a 1 7 ]
+"168
+} 0
+"112
+[v _setYAddress setYAddress `(v  1 e 1 0 ]
+{
+[v setYAddress@y y `uc  1 a 1 wreg ]
+[v setYAddress@y y `uc  1 a 1 wreg ]
+[v setYAddress@y y `uc  1 a 1 4 ]
+"121
+} 0
+"105
+[v _setXAddress setXAddress `(v  1 e 1 0 ]
+{
+[v setXAddress@page page `uc  1 a 1 wreg ]
+[v setXAddress@page page `uc  1 a 1 wreg ]
+[v setXAddress@page page `uc  1 a 1 4 ]
+"108
+} 0
+"133
+[v _GLCDinit GLCDinit `(v  1 e 1 0 ]
+{
+"138
+} 0
+"98
+[v _setStartLine setStartLine `(v  1 e 1 0 ]
+{
+[v setStartLine@z z `uc  1 a 1 wreg ]
+[v setStartLine@z z `uc  1 a 1 wreg ]
+[v setStartLine@z z `uc  1 a 1 4 ]
+"101
+} 0
+"72
+[v _sendGLCDCommand sendGLCDCommand `(v  1 e 1 0 ]
+{
+[v sendGLCDCommand@val val `uc  1 a 1 wreg ]
+[v sendGLCDCommand@val val `uc  1 a 1 wreg ]
+[v sendGLCDCommand@CS CS `uc  1 p 1 2 ]
+"74
+[v sendGLCDCommand@val val `uc  1 a 1 3 ]
+"94
+} 0
+"41
+[v _GLCDBusyWait GLCDBusyWait `(v  1 e 1 0 ]
+{
+"42
+[v GLCDBusyWait@CS CS `uc  1 a 1 wreg ]
+"43
+[v GLCDBusyWait@valor valor `uc  1 a 1 0 ]
+"42
+[v GLCDBusyWait@CS CS `uc  1 a 1 wreg ]
+"44
+[v GLCDBusyWait@CS CS `uc  1 a 1 1 ]
+"67
+} 0
+"30 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/main.c
+[v _highRSI highRSI `II(v  1 e 1 0 ]
+{
+"45
+[v highRSI@fltr fltr `f  1 a 3 40 ]
+"55
+} 0
+"215 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/GLCD.c
+[v i2_clearGLCD clearGLCD `(v  1 e 1 0 ]
+{
+[v i2clearGLCD@ri ri `uc  1 a 1 wreg ]
+[v i2clearGLCD@j clearGLCD `i  1 a 2 20 ]
+[v i2clearGLCD@i clearGLCD `i  1 a 2 18 ]
+[v i2clearGLCD@ri ri `uc  1 a 1 wreg ]
+[v i2clearGLCD@re re `uc  1 p 1 11 ]
+[v i2clearGLCD@ci ci `uc  1 p 1 12 ]
+[v i2clearGLCD@ce ce `uc  1 p 1 13 ]
+"219
+[v i2clearGLCD@ri ri `uc  1 a 1 17 ]
+"222
+} 0
+"25 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/main.c
+[v _printDot2 printDot2 `(v  1 e 1 0 ]
+{
+"26
+[v printDot2@value value `i  1 a 2 29 ]
+"25
+[v printDot2@fltr fltr `f  1 p 3 26 ]
+"28
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 10 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 14 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 9 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 0 ]
+"73
+} 0
+"20 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/main.c
+[v _printDot printDot `(v  1 e 1 0 ]
+{
+"21
+[v printDot@value value `i  1 a 2 28 ]
+"20
+[v printDot@an0 an0 `i  1 p 2 26 ]
+"23
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 21 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 20 ]
+[v ___awdiv@counter counter `uc  1 a 1 19 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 15 ]
+[v ___awdiv@divisor divisor `i  1 p 2 17 ]
+"41
+} 0
+"225 C:\Users\Adrian.Cristian.Crisan\Downloads\PIC18F45K22/GLCD.c
+[v _SetDot SetDot `(v  1 e 1 0 ]
+{
+[v SetDot@x x `uc  1 a 1 wreg ]
+"227
+[v SetDot@page page `i  1 a 2 23 ]
+"229
+[v SetDot@read read `i  1 a 2 21 ]
+"228
+[v SetDot@aux aux `i  1 a 2 19 ]
+"225
+[v SetDot@x x `uc  1 a 1 wreg ]
+[v SetDot@y y `uc  1 p 1 15 ]
+"227
+[v SetDot@x x `uc  1 a 1 25 ]
+"231
+} 0
+"142
+[v i2_writeByte writeByte `(v  1 e 1 0 ]
+{
+[v i2writeByte@p p `uc  1 a 1 wreg ]
+[v i2writeByte@chip writeByte `uc  1 a 1 10 ]
+[v i2writeByte@p p `uc  1 a 1 wreg ]
+[v i2writeByte@y y `uc  1 p 1 5 ]
+[v i2writeByte@data data `uc  1 p 1 6 ]
+[v i2writeByte@p p `uc  1 a 1 7 ]
+"168
+} 0
+"205
+[v _readByte readByte `(uc  1 e 1 0 ]
+{
+[v readByte@p p `uc  1 a 1 wreg ]
+"207
+[v readByte@aux aux `uc  1 a 1 13 ]
+"205
+[v readByte@p p `uc  1 a 1 wreg ]
+[v readByte@y y `uc  1 p 1 12 ]
+"208
+[v readByte@p p `uc  1 a 1 14 ]
+"211
+} 0
+"170
+[v _readByteReal readByteReal `(uc  1 e 1 0 ]
+{
+[v readByteReal@p p `uc  1 a 1 wreg ]
+"172
+[v readByteReal@chip chip `uc  1 a 1 11 ]
+"171
+[v readByteReal@data data `uc  1 a 1 10 ]
+"170
+[v readByteReal@p p `uc  1 a 1 wreg ]
+[v readByteReal@y y `uc  1 p 1 5 ]
+[v readByteReal@first first `uc  1 p 1 6 ]
+"172
+[v readByteReal@p p `uc  1 a 1 7 ]
+"199
+} 0
+"112
+[v i2_setYAddress setYAddress `(v  1 e 1 0 ]
+{
+[v i2setYAddress@y y `uc  1 a 1 wreg ]
+[v i2setYAddress@y y `uc  1 a 1 wreg ]
+[v i2setYAddress@y y `uc  1 a 1 4 ]
+"121
+} 0
+"105
+[v i2_setXAddress setXAddress `(v  1 e 1 0 ]
+{
+[v i2setXAddress@page page `uc  1 a 1 wreg ]
+[v i2setXAddress@page page `uc  1 a 1 wreg ]
+[v i2setXAddress@page page `uc  1 a 1 4 ]
+"108
+} 0
+"72
+[v i2_sendGLCDCommand sendGLCDCommand `(v  1 e 1 0 ]
+{
+[v i2sendGLCDCommand@val val `uc  1 a 1 wreg ]
+[v i2sendGLCDCommand@val val `uc  1 a 1 wreg ]
+[v i2sendGLCDCommand@CS CS `uc  1 p 1 2 ]
+"74
+[v i2sendGLCDCommand@val val `uc  1 a 1 3 ]
+"94
+} 0
+"41
+[v i2_GLCDBusyWait GLCDBusyWait `(v  1 e 1 0 ]
+{
+"42
+[v i2GLCDBusyWait@CS CS `uc  1 a 1 wreg ]
+"41
+[v i2GLCDBusyWait@valor GLCDBusyWait `uc  1 a 1 0 ]
+"42
+[v i2GLCDBusyWait@CS CS `uc  1 a 1 wreg ]
+"44
+[v i2GLCDBusyWait@CS CS `uc  1 a 1 1 ]
+"67
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 22 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 26 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 25 ]
+[v ___ftmul@exp exp `uc  1 a 1 21 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 12 ]
+[v ___ftmul@f2 f2 `f  1 p 3 15 ]
+"157
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 38 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 37 ]
+[v ___ftadd@sign sign `uc  1 a 1 36 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 27 ]
+[v ___ftadd@f2 f2 `f  1 p 3 30 ]
+"148
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 11 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0

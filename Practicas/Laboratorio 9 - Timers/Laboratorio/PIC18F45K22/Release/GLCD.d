@@ -1,1 +1,0 @@
- GLCD.d  GLCD.p1:  ../GLCD.c ../GLCD.h ../ascii.h

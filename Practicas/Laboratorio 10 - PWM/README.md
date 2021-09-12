@@ -31,7 +31,7 @@ void main(void) {
  }
 ```
 
-https://github.com/AdriCri22/Computer-Interfacing-CI-FIB/blob/main/Practicas/Laboratorio%2010%20-%20PWM/Previo/fase_1.png
+![alt text](https://github.com/AdriCri22/Computer-Interfacing-CI-FIB/blob/main/Practicas/Laboratorio%2010%20-%20PWM/Previo/fase_1.png)
 
 ## Fase 2
 

@@ -1,4 +1,53 @@
-# Coche Fantástico
+# Entrega previa
+
+```c
+#include <xc.h>
+#include "config.h"
+
+
+#define PINA0 PORTAbits.RA0
+#define PINB0 PORTBbits.RB0
+
+void configPIC(){
+   //config PIC
+   ANSELA = 0x00;  // All pins as digital
+   ANSELB = 0x00;  // All pins as digital
+   ANSELC = 0x00;  // All pins as digital
+
+   TRISA = 0x00;
+   TRISB = 0xFF;
+   TRISC = 0x00;
+   
+   PORTA = 0x00;
+   PORTB = 0x00;
+   PORTC = 0x00;
+}
+
+void main(void){
+   configPIC();
+   int pot_sumar = 0;
+   int count = 0;
+   while(1) {
+      if (PORTB == 0x00) 
+         pot_sumar = 1;
+      
+      else if (PORTB == 0x01 && pot_sumar == 1) {
+       count++;
+       pot_sumar = 0;
+      } 
+      
+      else if (PORTB > 0x01) 
+         count = 0x00;
+      
+      
+      PORTA = count;
+      PORTC = !PORTB;
+   }
+}
+```
+
+# Entrega Lab
+## Coche Fantástico
 
 ```c
 #include <xc.h>
@@ -47,7 +96,7 @@ void main(void){
 }
 ```
 
-# Letras
+## Letras
 
 ```c
 #include <xc.h>

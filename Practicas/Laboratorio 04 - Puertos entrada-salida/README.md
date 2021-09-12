@@ -1,4 +1,4 @@
-# Entrega previa
+# Entrega Previa
 
 ```c
 #include <xc.h>
@@ -46,7 +46,7 @@ void main(void){
 }
 ```
 
-# Entrega Lab
+# Entregas Lab
 ## Coche Fantástico
 
 ```c

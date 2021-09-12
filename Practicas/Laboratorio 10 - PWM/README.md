@@ -98,10 +98,70 @@ void main(void) {
  }
 ```
 
-
+![alt text](https://github.com/AdriCri22/Computer-Interfacing-CI-FIB/blob/main/Practicas/Laboratorio%2010%20-%20PWM/Previo/fase_2.png)
 
 # Entrega Lab
 
 ```c
+#include <xc.h>
+#include "config.h"
 
+int modo = 0, count = 0;
+
+void interrupt highRSI(void) {
+   if (PIE1bits.TMR2IE && PIR1bits.TMR2IF) {
+      count++;
+      if (count == 8) {	// Cada 8 ms
+	 count = 0;
+	    if (PR2 != 0) {
+	       if (modo == 0) CCPR1L = (PR2 + 10) / 2;
+	       if (modo == 1) CCPR1L = (PR2) / 2;
+	       if (modo == 2) CCPR1L = (PR2 - 10) / 2;
+	       modo++;
+	       if (modo == 3) modo = 0;
+	 }
+      }
+      PIR1bits.TMR2IF = 0;
+   }
+}
+
+// Configuración del PIC18F45k22
+void configPic () {
+   TRISCbits.RC2 = 0;		// Configuramos RC2 como output
+
+   T2CONbits.T2OUTPS = 0b0000;	// Postscaler a 0
+   T2CONbits.TMR2ON = 1;	// Timer 2 operativo
+   T2CONbits.T2CKPS = 0b11;	// Prescaler a 16
+
+   CCPTMRS0bits.C1TSEL = 0b00;	// CCP1 corresponde al puerto RC2 -> configuramos CCP1 al timer 2
+
+   CCP1CONbits.DC1B = 0b00;	// Configuración de los 2 bits extra que nos ofrecen los fabricantes para más resolución
+   CCP1CONbits.CCP1M = 0b1100;	// CCP1 configurado con el modo PWM
+
+   INTCONbits.GIE = 1;	// Habilitamos las interrupciones globales
+   PIE1bits.TMR2IE = 1;	// Habilitamos las interrupciones TMR2
+   INTCONbits.PEIE = 1;
+
+   // 1 ms / (0.5 us * 16 prescaler) = 125 tics
+   PR2 = 0;
+   CCPR1L = 0;
+   
+   ANSELB = 0;
+   TRISB = 0xFF;
+}
+
+void main(void) {
+   configPic();
+   while (1) {
+      if (PORTBbits.RB0 == 1) PR2 = 238;
+      else if (PORTBbits.RB1 == 1) PR2 = 212;
+      else if (PORTBbits.RB2 == 1) PR2 = 189;
+      else if (PORTBbits.RB3 == 1) PR2 = 178;
+      else if (PORTBbits.RB4 == 1) PR2 = 158;
+      else if (PORTBbits.RB5 == 1) PR2 = 141;
+      else if (PORTBbits.RB6 == 1) PR2 = 126;
+      else if (PORTBbits.RB7 == 1) PR2 = 118;
+      else PR2 = 0;
+   }
+ }
 ```

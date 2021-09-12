@@ -27,7 +27,7 @@ void main(void){
    configPIC();
    int pot_sumar = 0;
    int count = 0;
-   while(1) {
+   while (1) {
       if (PORTB == 0x00) 
          pot_sumar = 1;
       

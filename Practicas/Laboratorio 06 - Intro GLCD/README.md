@@ -136,6 +136,8 @@ void main(void)
 
 ```
 
+# GLCD.h
+
 ```h
 /* La pantalla té dos xips de memòria. Un controla la meitat esquerra i
 l'altre la meitat dreta. Cada meitat es divideix en 8 files i 64 columnes.
